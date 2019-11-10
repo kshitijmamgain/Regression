@@ -47,7 +47,7 @@ The datasets had rows in thousands with around 30 features. To clean the data fo
 
 The project was executed in Jupyter Notebook. We tested for correlation between the tables and performed backward feature elimination, shown in the figure below:
 
- ![alt text](https://github.com/kshitijmamgain/Regression/edit/master/Correlationmatrix.png?raw=true "Title")
+ ![image](https://github.com/kshitijmamgain/Regression/edit/master/Correlationmatrix.png?raw=true "Title")
 
 As seen in the figure above the features has high collinearity with each other. It became essential to eliminate the features to get the optimized OLS regression table. The graph on the right side represents the table after BFE. The pvalues of the features is shown in the figure below.
 
